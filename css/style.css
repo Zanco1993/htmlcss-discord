@@ -15,7 +15,6 @@ body{
 .container{
     width: 1200px;
     height: 500px;
-    border: 2px solid red;
     margin: 0 auto;    
 }
 
@@ -192,12 +191,10 @@ ul .button.color-white{
 .final-content{
     width: 1200px;
     text-align: center;
-    border: 1px solid royalblue;
     margin: auto;
     
 }
 .final-item{
-    border: 1px solid red;
     width: 700px;
     margin: auto;
     margin-top: 40px;
@@ -221,4 +218,45 @@ ul .button.color-white{
 }
 
 /* --------------inizio footer-------------- */
+footer{
+    height: 500px;
+    background-color: rgb(35,39,42);
+}
+.fl{
+    float: left;
+}
+.margine{
+    margin-top: 70px;
+}
 
+.sidebar-1-footer{
+    width: 20%;
+}
+.sidebar-2-footer{
+    width: 20%;
+}
+.sidebar-3-footer{
+    width: 20%;
+}
+.sidebar-4-footer{
+    width: 20%;
+}
+.sidebar-5-footer{
+    width: 20%;
+}
+
+.sidebar-1-footer ul {
+    list-style: none;
+}
+.sidebar-2-footer ul {
+    list-style: none;
+}
+.sidebar-3-footer ul {
+    list-style: none;
+}
+.sidebar-4-footer ul {
+    list-style: none;
+}
+.sidebar-5-footer ul {
+    list-style: none;
+}
