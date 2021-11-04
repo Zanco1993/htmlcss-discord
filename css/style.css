@@ -24,20 +24,17 @@
 .sidebar-left{
     float: left;
     width: 25%;
-    border: 4px solid red;
 }
 
 .content-main{
     float: left;
     width: 50%;
     padding: 0 20px; 
-    border: 4px solid red;
 
 }
 .sidebar-right{
     float: left;
     width: 25%;
-    border: 4px solid red;
 
 }
 
@@ -112,6 +109,8 @@ nav{
 
 .title-main{
     text-align: center;
+    width: calc(100% - 600px);
+    margin: auto;
 }
 
 .title-main h1{
@@ -126,18 +125,30 @@ nav{
     color: white;
 }
 
-.button.color-black{
+ul .button.color-black{
     color: black;
     background-color: white;
     padding: 10px 20px;
+    list-style: none;
+    text-align: center;
+}
+article ul li{
+    display: inline-block;
+    margin-top: 20px;
+   
 }
 
-.button.color-white{
+ul .button.color-white{
     color: white;
     background: black;
     padding: 10px 20px;
-
+    list-style: none;
+    text-align: center;
+    display: inline-block;
 }
+
+
+
 
 /* ------------------inizio box 2------------------- */
 
