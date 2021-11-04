@@ -23,14 +23,15 @@ nav{
 .logo{
     height: 100%;
     display: inline-block;
+    background-color: royalblue;
 }
 
 .logo img{
     height: 100%;
 }
 
-.navbar ul{
+/* .navbar ul{
     list-style: none;
-}
+} */
 
 
