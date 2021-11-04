@@ -3,9 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-.box-image{
+.box-image-1{
     background-image: url("../img/jumbo.png");
     height: 500px;
+    width: 100%;
     background-size: cover;
 }
 .container{
@@ -135,5 +136,31 @@ nav{
     color: white;
     background: black;
     padding: 10px 20px;
+
+}
+
+/* ------------------inizio box 2------------------- */
+
+.sidebar-content-left{
+    float: left;
+    width: 50%;
+    border: 1px soli red;
+    padding: 20px;
+}
+.sidebar-content-right{
+    float: left;
+    width: 50%;
+    border: 1px soli red;
+    padding: 20px;
+}
+
+.content-img{
+    height: 350px;
+    width: 350px;
+    margin-top: 80px;
+}
+
+.content-img img{
+    height: 100%;
 
 }
