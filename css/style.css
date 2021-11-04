@@ -16,6 +16,10 @@
     margin: 0 auto;    
 }
 
+header{
+    height: 500px;
+}
+
 .row::after{
     content: "";
     display: table;
@@ -155,23 +159,30 @@ ul .button.color-white{
 .sidebar-content-left{
     float: left;
     width: 50%;
-    border: 1px soli red;
-    padding: 20px;
+    border: 1px solid red;
+    padding: 80px;
 }
 .sidebar-content-right{
     float: left;
     width: 50%;
-    border: 1px soli red;
-    padding: 20px;
+    border: 1px solid red;
+    position: relative;
 }
 
 .content-img{
-    height: 350px;
-    width: 350px;
-    margin-top: 80px;
+    height: 300px;
+    width: 300px;
+   
 }
 
 .content-img img{
     height: 100%;
+}
 
+.sidebar-content-right .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
