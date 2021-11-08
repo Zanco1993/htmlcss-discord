@@ -181,3 +181,67 @@ padding: 100px;
 }
 
 /* --------------inizio footer-------------- */
+footer{
+    background: black;
+}
+
+.social{
+    width: 30%;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+.legend{
+    width: 15%;
+    border: 1px solid black;
+    margin: 40px 0;
+}
+.legend ul{
+    list-style: none;
+}
+.legend ul li{
+    padding-bottom: 5px;
+}
+.legend ul li a{
+    color: white;
+    text-decoration: none;
+}
+.legend ul .text{
+    color: rgb(29, 101, 255);
+}
+.nationality{
+    width: 25px;
+}
+.nationality img{
+    width: 100%;
+}
+
+.nationality,.language{
+    display: inline-block;
+}
+.language span::after{
+    content: "\2304";
+    color: white;
+}
+.language span{
+    color: white;
+}
+
+.social .text{
+    color: rgb(29, 101, 255);
+}
+
+footer hr{
+    border: 1px solid rgb(29, 101, 255);
+    margin-bottom: 20px;
+}
+.social h2{
+    margin-bottom: 15px;
+}
+.info-social{
+    margin-top: 15px;
+}
+footer ul{
+    list-style: none;
+}
+
+
