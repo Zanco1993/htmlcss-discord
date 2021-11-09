@@ -50,7 +50,6 @@ header{
 nav{
     height: 60px;
     line-height: 60px;
-   /* fixed mi da problemi perché prende tutta la pagina */
 }
 
 nav ul{
@@ -157,6 +156,16 @@ padding: 100px;
 .final-content h1{
     margin-bottom: 30px;
 }
+.final-content .text{
+    height: 100px;
+    padding: 10px 0;
+}
+
+.text .img-star{
+    background-image: url("../img/stars.svg");
+    background-position: center;
+    background-size: contain;
+}
 
 .final-image{
     width: 100%;
@@ -165,6 +174,7 @@ padding: 100px;
 .final-test{
     margin-bottom: 20px;
 }
+
 .final-test ul{
     list-style: none;
 }
@@ -184,12 +194,22 @@ padding: 100px;
 footer{
     background: black;
 }
+.social p{
+    display: inline-block;
+}
+.social p img{
+    width: 20px;
+}
 
 .social{
     width: 30%;
     border: 1px solid black;
     margin-top: 40px;
 }
+.social span{
+    color: white;
+}
+
 .legend{
     width: 15%;
     border: 1px solid black;
